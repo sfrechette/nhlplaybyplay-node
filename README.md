@@ -1,2 +1,2 @@
 # nhlplaybyplay-nodejs
-NHL Game Play By Play 
+NHL Game Play by Play 
