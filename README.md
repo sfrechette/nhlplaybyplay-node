@@ -1,2 +1,2 @@
-# nhlplaybyplay-nodejs
-NHL Game Play by Play 
+# nhlplaybyplay-node
+Fetch NHL Play by Play Games JSON files
