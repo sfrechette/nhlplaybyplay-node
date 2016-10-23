@@ -1,0 +1,17 @@
+{
+  "name": "nhlplaybyplay-node",
+  "version": "1.0.0",
+  "description": "NHL Play by Play JSON file fetch... schedule, all games or individual game",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stéphane Fréchette",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "colors": "^1.1.2",
+    "jsonfile": "^2.4.0",
+    "request": "^2.75.0"
+  }
+}
