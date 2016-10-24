@@ -6,10 +6,10 @@ Application built using NodeJS that provides the means for accessing, fetching N
 
 **Hope your familiar with the following:**
 
-2016-2017 NHL Season Schedule
+2016-2017 NHL Season Schedule -> 
 http://live.nhl.com/GameData/SeasonSchedule-20162017.json
 
-Play by Play for game 2016020031 
+Play by Play for game 2016020031 ->
 http://live.nhl.com/GameData/20162017/2016020031/PlayByPlay.json
 
 *Note: Play by Play data only available from the 2011-2012 NHL Season and beyond...*
