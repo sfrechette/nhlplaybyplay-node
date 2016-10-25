@@ -4,7 +4,7 @@ Fetch NHL Play by Play game data in JSON file format
 ## Purpose
 Application built using Node.js that provides the means for accessing, fetching NHL Schedule and Play by Play game data in JSON format. 
 
-**Hope your familiar with this…:**
+**Hope your familiar with this…**
 
 2016-2017 NHL Season Schedule -> 
 http://live.nhl.com/GameData/SeasonSchedule-20162017.json
