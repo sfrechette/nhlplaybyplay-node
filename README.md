@@ -2,9 +2,9 @@
 Fetch NHL Play by Play game data in JSON file format
 
 ## Purpose
-Application built using NodeJS that provides the means for accessing, fetching NHL Schedule and Play by Play game data in JSON format. 
+Application built using Node.js that provides the means for accessing, fetching NHL Schedule and Play by Play game data in JSON format. 
 
-**Hope your familiar with the following:**
+**Hope your familiar with this…:**
 
 2016-2017 NHL Season Schedule -> 
 http://live.nhl.com/GameData/SeasonSchedule-20162017.json
@@ -12,10 +12,10 @@ http://live.nhl.com/GameData/SeasonSchedule-20162017.json
 Play by Play for game 2016020031 ->
 http://live.nhl.com/GameData/20162017/2016020031/PlayByPlay.json
 
-*Note: Play by Play data only available from the 2011-2012 NHL Season and beyond...*
+*Note: Schedule and Play by Play data only available from the 2011-2012 NHL Season and onward…*
 
 ## Installation
-Install the dependencies with the followig command:
+Install the dependencies with the following command:
 ```
 npm install
 ```
