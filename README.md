@@ -45,6 +45,7 @@ node fetch.js 20162017 2016020001
 ```
 
 **Convert Play by Play JSON to CSV**
+
 node convert.js *season* *[game]*
 
 To convert all games for a specific season:
