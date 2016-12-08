@@ -1,8 +1,9 @@
 # nhlplaybyplay-node
-Fetch NHL Play by Play game data in JSON file format
+Fetch and Convert NHL Play by Play game data 
 
 ## Purpose
-Application built using Node.js that provides the means for accessing, fetching NHL Schedule and Play by Play game data in JSON format. 
+Application built using Node.js that provides the means for accessing, fetching NHL Schedule and Play by Play game data in JSON format and
+converting the output to CSV.
 
 **Hope your familiar with this…**
 
@@ -30,6 +31,7 @@ mkdir data
 i.e. To fetch data from the 2012-2013 NHL season you need to create the following folder `20122013` under the `data` directory. 
 
 ## Usage
+### Fetch Play by Play JSON  
 node fetch.js *season* *[game]*
 
 To fetch all games for a specific season:
@@ -37,10 +39,21 @@ To fetch all games for a specific season:
 node fetch.js 20152016
 ```
 
-To fetch specific game from a specific season
+To fetch a specific game from a specific season
 ```
 node fetch.js 20162017 2016020001
 ```
 
-Will be adding parsing functionallity in the near future...
-Enjoy!
+### Convert Play by Play JSON to CSV
+node convert.js *season* *[game]*
+
+To convert all games for a specific season:
+```
+node convert.js 20152016
+```
+
+To convert a specific game from a specific season
+```
+node convert.js 20162017 2016020001
+```
+
