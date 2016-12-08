@@ -52,8 +52,8 @@ if (process.argv[3] != null) {
                 // catch exceptions from either writeFileSync or JSON.parse
                 try {
                 // If today's date 'utdDate' is smaller than 'gameDate', game not played yet! Then exit
-                    if (utcDate < gameDate.substring(0, 8)) {
-                        console.log(colors.green('All games fetched successfully'));
+                    if ((utcDate - 1) < gameDate.substring(0, 8)) {
+                        console.log(colors.green('All available games fetched successfully'));
                         return;
                     } else {
                         console.log(colors.green(`Fetching URL: ${URL}`));
@@ -76,7 +76,7 @@ if (process.argv[3] != null) {
                 console.log('detailed error:', err);
                 return;
             } else {
-                console.log(colors.green('All games fetched successfully'));
+                console.log(colors.green('All available games fetched successfully'));
             }
         }) 
     })
