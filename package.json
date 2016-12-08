@@ -1,7 +1,7 @@
 {
   "name": "nhlplaybyplay-node",
-  "version": "1.0.0",
-  "description": "NHL Play by Play JSON file fetch... schedule, all games or individual game",
+  "version": "1.1.0",
+  "description": "Application built using Node.js that provides the means for accessing, fetching NHL Schedule and Play by Play game data in JSON format and converting the output to CSV.",
   "main": "fetch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
