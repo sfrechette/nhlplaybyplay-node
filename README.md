@@ -1,3 +1,5 @@
+![alt tag](http://stephanefrechette.com/blog/wp-content/uploads/2016/10/pict-ice-hockey-rink-view-from-long-side-hockey-rinks-vector-stencils-library.png-diagram-flowchart-example.png)
+
 # nhlplaybyplay-node
 Fetch and Convert NHL Play by Play game data 
 
@@ -26,7 +28,7 @@ Create a `data` directory:
 mkdir data
 ```
 
-**Before using you will need to create a specific directory for each of the seasons you will be fetching data for.**
+*Before using you will need to create a specific directory for each of the seasons you will be fetching data for.*
 
 i.e. To fetch data from the 2012-2013 NHL season you need to create the following folder `20122013` under the `data` directory. 
 
