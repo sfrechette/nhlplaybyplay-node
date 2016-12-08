@@ -31,7 +31,7 @@ mkdir data
 i.e. To fetch data from the 2012-2013 NHL season you need to create the following folder `20122013` under the `data` directory. 
 
 ## Usage
-### Fetch Play by Play JSON  
+**Fetch Play by Play JSON**  
 node fetch.js *season* *[game]*
 
 To fetch all games for a specific season:
@@ -44,7 +44,7 @@ To fetch a specific game from a specific season
 node fetch.js 20162017 2016020001
 ```
 
-### Convert Play by Play JSON to CSV
+**Convert Play by Play JSON to CSV**
 node convert.js *season* *[game]*
 
 To convert all games for a specific season:
