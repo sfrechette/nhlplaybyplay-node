@@ -1,3 +1,6 @@
+# Please use latest version 
+# https://github.com/sfrechette/nhlplaybyplay2-node
+
 ![alt tag](https://stephanefrechette.com/blog/wp-content/uploads/2017/04/hockey-rink.png)
 
 # nhlplaybyplay-node
